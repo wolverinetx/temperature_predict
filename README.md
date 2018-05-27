@@ -13,9 +13,5 @@ Data mining: temperature prediction - Data set  from temperature sensor
 
 ### Vulnerabilities          
 [![Known Vulnerabilities](https://snyk.io/test/github/gabycuzme/snyk/badge.svg?targetFile=package.json)](https://snyk.io/test/github/gabycuzme/snyk?targetFile=package.json)
-
-    pip install coveralls
-    coverage run --source=mypkg setup.py test
-    coveralls
-    
+   
 ### Coverage
