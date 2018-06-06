@@ -22,7 +22,7 @@ def main():
     #print analytics
     print(temperaturadf.describe())
 
-    #copy varable df
+    #copy data frame df
     df2 = df.copy()
 
 
