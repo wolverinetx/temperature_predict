@@ -1,4 +1,7 @@
+##!/usr/bin/python
+#Analitics of one day of data light, tempure and humedity
 
+#Import Library
 import pandas as pd
 import os
 import numpy as np
@@ -20,6 +23,7 @@ def main():
     print(temperaturadf.info())
 
     #print analytics
+    print(" Date Light, Temperature and Humedity:")
     print(temperaturadf.describe())
 
     #copy data frame df
