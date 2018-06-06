@@ -23,7 +23,7 @@ def main():
     print(temperaturadf.info())
 
     #print analytics
-    print(" Date Light, Temperature and Humedity:")
+    print("\n Analized Data: \n")
     print(temperaturadf.describe())
 
     #copy data frame df
