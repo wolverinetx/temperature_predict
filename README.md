@@ -14,4 +14,6 @@ Data mining: temperature prediction - Data set  from temperature sensor
 ### Vulnerabilities
 [![Known Vulnerabilities](https://snyk.io/test/github/wolverinetx/temperature_predict/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/wolverinetx/temperature_predict?targetFile=requirements.txt)
    
-### Coverage
+### Coverageuuuuu
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/17197b9e843d4bb19728c4354203cbe2)](https://www.codacy.com/app/gabys_r92/temperature_predict?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=wolverinetx/temperature_predict&amp;utm_campaign=Badge_Grade)
+
