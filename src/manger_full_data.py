@@ -5,15 +5,24 @@ import numpy as np
 import datetime
 
 def main():
-    print('hola')
+
+    #get path
     dirname=os.path.dirname(__file__)
     filename=os.path.join(dirname, '../data/temperatura.csv')
+
+    #get data
     df=pd.read_csv(filename, sep=',',header=0, na_values="NaN")
 
+    #put into a data frame
     temperaturadf=pd.DataFrame(df)
+
+    #print csv structure
     print(temperaturadf.info())
+
+    #print analytics
     print(temperaturadf.describe())
 
+    #copy varable df
     df2 = df.copy()
 
 
