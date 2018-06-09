@@ -24,7 +24,6 @@ def main():
 
     #print analytics
     print("\n Analized Data: \n")
-    print("\n Analized Data____+++_______: \n")
     print(temperaturadf.describe())
 
     #copy data frame df
