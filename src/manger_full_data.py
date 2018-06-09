@@ -19,7 +19,7 @@ def main():
     #put into a data frame
     temperaturadf=pd.DataFrame(df)
 
-    print('Inform')
+    print('Base Information')
 
     #print csv structure
     print(temperaturadf.info())
