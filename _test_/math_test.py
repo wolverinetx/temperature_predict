@@ -2,7 +2,7 @@ import unittest
 from faker import Faker
 from odd_number import OddNumber
 
-#Script od test
+#Script of test
 class MathTestCase(unittest.TestCase):
 
     def setUp(self):
