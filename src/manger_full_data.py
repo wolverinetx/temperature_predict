@@ -1,3 +1,4 @@
+
 #Libraries to use
 import pandas as pd
 import numpy as np
@@ -438,16 +439,15 @@ def generateScene(df, light, temperature, humidity, groupingBy,timesBack,ipath):
         if v < 4:
             df.iloc[:, i].to_csv(ipath+'sceneLight'+iname.iloc[v]+groupingBy+timesBack+'.csv', encoding='latin-1', header=True, index=False,sep=',')
 
-            #temperature
+    #temperature
     for i, v in temperature.items():
         if v < 4:
             df.iloc[:, i].to_csv(ipath+'sceneTemperature'+iname.iloc[v]+groupingBy+timesBack+'.csv', encoding='latin-1',header=True, index=False,sep=',')
 
-            #humidity
+    #humidity
     for i, v in humidity.items():
         if v < 4:
             df.iloc[:, i].to_csv(ipath+'sceneHumidity'+iname.iloc[v]+groupingBy+timesBack+'.csv', encoding='latin-1',header=True, index=False,sep=',')
-
 
 
 if __name__=='__main__':
