@@ -429,7 +429,6 @@ def sumdiff(df, tipo):
 
 
 # print all the scenes about light, temprerature, humidity
-
 def generateScene(df, light, temperature, humidity, groupingBy,timesBack,ipath):
     #names to generate
     iname = pd.Series(['By', 'ErrorBy', 'ErrorSumBy', 'ErrorDifBy', '0'])
